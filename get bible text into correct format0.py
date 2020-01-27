@@ -6,7 +6,7 @@
 # <div>
 
 # In[11]:
- 
+
 
 f=open("bible_text.txt", "r")
 bible_content = f.read()
@@ -33,7 +33,8 @@ for s in split:
 #               and tab stops  \t:
     rem_n = re.sub('\n','',clean_chapter_text)
     rem_t = re.sub('\t','',rem_n)
-    single_chapters.append([rem_t])
+    rem_div = re.sub('<.*$','', rem_t)
+    single_chapters.append([rem_div])
 
 print(len(single_chapters))
 k=0
