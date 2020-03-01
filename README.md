@@ -1,7 +1,7 @@
 # SneakySnakes
 code for the ANLP Sneaky Snakes Project
 
-In our project, we use two different methods to generate text summaries of the 66 bible books. 
+In our project, we use two different methods to generate text summaries. 
 
 *******************************
 METHOD 1 : TF-IDF-based
