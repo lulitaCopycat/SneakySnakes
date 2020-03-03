@@ -23,7 +23,7 @@ called "backup-files". If You want or need to use them, please adjust the file p
 *******************************
 METHOD 2 : seq2seq model
 The second method is based on training a sequence-to-sequence (seq2seq) model. In order to run the code for the model, please
-download and unzip "seq2seq_abstract_text_summarisation.zip". Then run the notebook: "seq2seq_abstract_text_summarisation.ipynb".
+download and unzip the file "seq2seq_abstract_text_summarisation.zip". Download the AESLC dataset from https://github.com/ryanzhumich/AESLC and save it in the "seq2seq_abstract_text_summarisation" directory (see attached photo). Now run the notebook."
 
 
 
